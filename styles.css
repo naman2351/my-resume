@@ -3,6 +3,7 @@ html{
     padding-left: 10px;
     padding-right: 10px;
     font-size: large;
+    
 }
 .Summary{
     text-align: center;
@@ -11,16 +12,18 @@ footer{
     text-align: center;
 }
 body{
-    background-color: #A0D2EB;
+    background-color: #0F0F0F;
+    color:#008170
 }
 hr{
     height: 5px;
-    background-color: #494d5f
+    background-color: #008170;
+    border:none
 }
 button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #494d5f; /* Change this to your desired button color */
+    background-color: #005B41; /* Change this to your desired button color */
     color: #fff;
     text-decoration: none;
     border: none;
@@ -32,7 +35,7 @@ button {
 
   /* Styles for hover effect */
 button:hover {
-    background-color: #FFFFFF;
-    color:#141618;
-    border:2px solid;
+    background-color:#008170;
+    color:white;
+    border:3px solid;
 }
