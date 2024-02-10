@@ -6,27 +6,52 @@
     <title>Contact Details</title>
 </head>
 <body>
+    <script>
+        function redirectToWebsite() {
+            window.location.href = "index.html"; // Replace "https://example.com" with the URL of the website you want to redirect to
+        }
+        </script>
     <style>
         h1{
             text-align: center;
-
-        }h2{
-            background-color: bisque;
         }
         html{
+            font-size: large;
+            background-color: #a0d2eb;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        }
+        }   
         img{
             height: 18px;
             float: left;
             padding-top :5px ;
             padding-right: 10px;
             padding-left: 10px;
-            
+        }
+        hr{
+            height: 5px;
+            background-color: #494d5f
+        }
+        button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #494d5f;
+            color: #fff;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition-duration: 0.4s;
+            border: 2px solid #FFFFFF;
+        }
+        button:hover {
+            background-color: #FFFFFF;
+            color:#141618;
+            border:2px solid black;
         }
     </style>
     <h1>Contact Me</h1>
-    <hr width="100%" height="">
+    <hr width="100%">
     <div>
         <img src="resources/caller.png"><h2>Mobile No. - 9452334444 </h2>
         <img src="resources/email.png"><h2>Email - bhardwajssnaman@gmail.com</h2>
@@ -34,4 +59,6 @@
         <img src="resources/linkedin.png"><h2>LinkedIn - <a href = "https://www.linkedin.com/in/naman-bhardwaj-76bb17254/">naman-bhardwaj</a></h2>
     </div>
     <hr>
+    <br>
+    <footer><button onclick="redirectToWebsite()">Go Back to home</button></footer>
 </body>

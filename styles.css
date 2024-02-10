@@ -2,13 +2,37 @@ html{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-left: 10px;
     padding-right: 10px;
-
+    font-size: large;
 }
 .Summary{
     text-align: center;
 }
 footer{
-    background-color: bisque;
     text-align: center;
-    color: black;
+}
+body{
+    background-color: #A0D2EB;
+}
+hr{
+    height: 5px;
+    background-color: #494d5f
+}
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #494d5f; /* Change this to your desired button color */
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+
+  /* Styles for hover effect */
+button:hover {
+    background-color: #FFFFFF;
+    color:#141618;
+    border:2px solid;
 }
